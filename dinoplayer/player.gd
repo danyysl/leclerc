@@ -18,7 +18,6 @@ func _physics_process(delta):
 		velocity.y = JUMP_VELOCITY
 		$AnimatedSprite2D.play("jump")
 		$AudioStreamPlayer2D.play()
-
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var direction = Input.get_axis("ui_left", "ui_right")
@@ -28,5 +27,5 @@ func _physics_process(delta):
 	else:
 		$AnimatedSprite2D.play("default")
 		velocity.x = move_toward(velocity.x, 0, SPEED)
-
+	velocity.x = SPEED + GHUD.score
 	move_and_slide()
