@@ -13,3 +13,8 @@ position = Vector2(171, 522)
 
 [node name="Floor" parent="." instance=ExtResource("3_owd43")]
 scale = Vector2(0.998624, 1.00282)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(579, 251)
+limit_top = 0
+limit_bottom = 0
