@@ -1,11 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://bd1g0oxpslvmg"]
+[gd_scene load_steps=2 format=3 uid="uid://dhufq4qp6cfll"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_d5ux5"]
-size = Vector2(2343, 52)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rx7ao"]
+size = Vector2(2304, 52)
 
 [node name="Floor" type="StaticBody2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1171.5, 622)
-shape = SubResource("RectangleShape2D_d5ux5")
-debug_color = Color(0.790337, 0.267523, 0.832505, 0.42)
+position = Vector2(1152, 622)
+shape = SubResource("RectangleShape2D_rx7ao")
+debug_color = Color(0.856412, 0.000748529, 0.884545, 0.42)
