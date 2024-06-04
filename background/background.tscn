@@ -1,11 +1,11 @@
 [gd_scene load_steps=7 format=3 uid="uid://b4h83n52fa43a"]
 
-[ext_resource type="Texture2D" uid="uid://d4locgltk4ycu" path="res://background/plx-1.png" id="1_cpayr"]
-[ext_resource type="Texture2D" uid="uid://bw4oc44ym3qgv" path="res://background/plx-2.png" id="2_saiy7"]
-[ext_resource type="Texture2D" uid="uid://drs5aqky3ts4m" path="res://background/plx-3.png" id="3_0jf51"]
-[ext_resource type="Texture2D" uid="uid://dyi311hnrbgs8" path="res://background/plx-4.png" id="4_75xkm"]
-[ext_resource type="Texture2D" uid="uid://c30e73yhknpbp" path="res://floor/floor.png" id="4_b6ofb"]
-[ext_resource type="Texture2D" uid="uid://c6uw0r4xitvbf" path="res://background/plx-5.png" id="5_ob85l"]
+[ext_resource type="Texture2D" uid="uid://b7ko16ihxa6wt" path="res://background/plx-1.png" id="1_cpayr"]
+[ext_resource type="Texture2D" uid="uid://cer6h70n3f0gr" path="res://background/plx-2.png" id="2_saiy7"]
+[ext_resource type="Texture2D" uid="uid://cqq46u58tam0a" path="res://background/plx-3.png" id="3_0jf51"]
+[ext_resource type="Texture2D" uid="uid://bvplhk4gx2exg" path="res://background/plx-4.png" id="4_75xkm"]
+[ext_resource type="Texture2D" uid="uid://drqeph8v2hym6" path="res://floor/floor.png" id="4_b6ofb"]
+[ext_resource type="Texture2D" uid="uid://bxj206h0lup7w" path="res://background/plx-5.png" id="5_ob85l"]
 
 [node name="Background" type="ParallaxBackground"]
 
